@@ -1,10 +1,9 @@
 # craw
 
-fastest web crawling 
+web crawling 
 
 chmod +x install.sh
 
 ./install.sh
 
-
-cat subdomain.txt | xargs -n1 -P500 | craw
+ craw subs.txt
