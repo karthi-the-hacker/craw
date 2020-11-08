@@ -1,0 +1,4 @@
+
+dom=$1
+path=$(pwd)
+gau $1 | tee -a $path/crawl.txt 
